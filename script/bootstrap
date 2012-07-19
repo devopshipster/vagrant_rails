@@ -1,5 +1,8 @@
 #!/bin/bash
 
+echo 'HINT: Do not use rails'
+exit 1
+
 CHEF_SOLO=`which chef-solo`
 
 function main() {
